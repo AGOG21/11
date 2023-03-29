@@ -1,0 +1,52 @@
+body { 
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: aliceblue;
+    background-color: grey;
+    background-image: url(https://fondosmil.com/fondo/55123.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(150, 120, 250);
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    min-height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10 px 0px;
+    }
+}
